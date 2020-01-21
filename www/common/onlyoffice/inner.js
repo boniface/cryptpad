@@ -735,6 +735,8 @@ define([
                                   '#panel-settings-general tr.coauth { display: none !important; }' +
                                   '#header { display: none !important; }' +
                                   '#title-doc-name { display: none !important; }' +
+                                  '#asc-gen124 { display: none !important; }' +
+                                  '#file-menu-panel { top: 0px !important; }' +
                                   // New OO:
                                   '#asc-gen566 { display: none !important; }' + // Insert image from url
                                   'section[data-tab="ins"] .separator:nth-last-child(2) { display: none !important; }' + // separator
@@ -745,7 +747,7 @@ define([
                                   '#panel-info { display: none !important; }' + // Same but content
                                   '#image-button-from-url { display: none !important; }' + // Inline image settings: replace with url
                                   '#file-menu-panel .devider { display: none !important; }' + // separator in the "File" menu
-                                  '#file-menu-panel { top: 28px !important; }' + // Position of the "File" menu
+                                  //'#file-menu-panel { top: 28px !important; }' + // Position of the "File" menu
                                   '#left-btn-spellcheck, #left-btn-about { display: none !important; }'+
                                   'div.btn-users.dropdown-toggle { display: none; !important }';
                         $('<style>').text(css).appendTo($tb);
